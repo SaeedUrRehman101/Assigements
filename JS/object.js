@@ -6,8 +6,8 @@ class batch202309b{
     }
     learning(name,course,semester){
         let x=name+" is the student of " +course + "and current semester is "+ semester;
-        document.getElementsByClassName("object_heading").innerHTML=x;
-        console.log(x);
+        document.getElementById("object_heading").innerHTML=x;
+        // console.log(x);
     }
 }
 let std=new batch202309b;
